@@ -4,6 +4,10 @@ body {
    background: #222;
 }
 
+.main-div {
+
+}
+
 .left {
    left: 25px;
 }
@@ -18,7 +22,11 @@ body {
 
 .bottom {
    position: absolute;
-   bottom: 25px;
+   bottom: 10px;
+}
+
+.content {
+   margin-top: 20px;
 }
 
 #gradient {
@@ -49,10 +57,10 @@ body {
    width: 450px;
    height: 220px;
    padding: 25px;
-   padding-top: 10px;
+   padding-top: 15px;
    padding-bottom: 0;
    left: 50%;
-   top: 55.5px;
+   top: 52px;
    margin-left: -250px;
    background: #e9e2d0;
    box-shadow: -20px 0 35px -25px black, 20px 0 35px -25px black;
@@ -60,7 +68,7 @@ body {
 }
 
 #card img {
-   /* margin-top: 20px; */
+   margin-top: 3px;
    width: 150px;
    float: left;
    border-radius: 5px;
