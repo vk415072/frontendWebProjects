@@ -1,5 +1,7 @@
 // 1. importing ExpenseItem.js component
-import ExpenseItem from "./components/ExpenseItem";
+// import ExpenseItem from "./components/ExpenseItem";
+// 6. importing Expenses.js
+import Expenses from "./components/Expenses";
 
 function App() {
    // 3. creating data for ExpenseItem
@@ -35,10 +37,13 @@ function App() {
          <h2>Let's get started!</h2>
          {/* 2. using ExpenseItem.js component as JSX tags */}
          {/* 4. creating the attributes with data expenses data created above */}
-         <ExpenseItem title={expenses[0].title} amount={expenses[0].amount} date={expenses[0].date}></ExpenseItem>
+         {/* 5. moving these expenses items to Expense.js */}
+         {/* <ExpenseItem title={expenses[0].title} amount={expenses[0].amount} date={expenses[0].date}></ExpenseItem>
          <ExpenseItem title={expenses[1].title} amount={expenses[1].amount} date={expenses[1].date}></ExpenseItem>
          <ExpenseItem title={expenses[2].title} amount={expenses[2].amount} date={expenses[2].date}></ExpenseItem>
-         <ExpenseItem title={expenses[3].title} amount={expenses[3].amount} date={expenses[3].date}></ExpenseItem>
+         <ExpenseItem title={expenses[3].title} amount={expenses[3].amount} date={expenses[3].date}></ExpenseItem> */}
+         {/* 7. now using Expenses.js component */}
+         <Expenses items={expenses} />
       </div>
    );
 }
