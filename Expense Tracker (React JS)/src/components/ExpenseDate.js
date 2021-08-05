@@ -1,3 +1,5 @@
+// 4. adding css
+import "./ExpenseDate.css";
 // 2. adding props to access date from ExpenseItem.js
 function ExpenseDate(props) {
    // 1. copied from ExpenseItem.js
@@ -7,10 +9,10 @@ function ExpenseDate(props) {
 
    return (
       // 3. copied from ExpenseItem.js
-      <div>
-         <div>{month}</div>
-         <div>{day}</div>
-         <div>{year}</div>
+      <div className="expense-date">
+         <div className="expense-date__month">{month}</div>
+         <div className="expense-date__day">{day}</div>
+         <div className="expense-date__year">{year}</div>
       </div>
    );
 }
