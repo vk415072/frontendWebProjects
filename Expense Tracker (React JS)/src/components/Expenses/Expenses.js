@@ -5,7 +5,7 @@ import "./Expenses.css";
 // 4. importing Card.js (the wrapping components for all components)
 import Card from "../UI/Card";
 
-function Expenses(props) {
+const Expenses = (props) => {
    return (
       // 1. copied from App.js
       // 5. Wrapping the HTML with <Card> tag instead for default <div> tag

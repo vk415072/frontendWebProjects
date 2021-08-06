@@ -1,7 +1,7 @@
 // 4. adding css
 import "./ExpenseDate.css";
 // 2. adding props to access date from ExpenseItem.js
-function ExpenseDate(props) {
+const ExpenseDate = (props) => {
    // 1. copied from ExpenseItem.js
    const month = props.date.toLocaleString("en-US", { month: "long" });
    const day = props.date.toLocaleString("en-US", { day: "2-digit" });

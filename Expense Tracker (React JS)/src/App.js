@@ -3,7 +3,7 @@
 // 6. importing Expenses.js
 import Expenses from "./components/Expenses/Expenses";
 
-function App() {
+const App = () => {
    // 3. creating data for ExpenseItem
    const expenses = [
       {

@@ -8,7 +8,7 @@ import Card from "../UI/Card";
 // 1. created our first component (it's just a function which returns a HTML)
 // 2. It is not really HTML, it is JSX which is dev by React team
 // 3. getting property from app.js set attributes. This will make this component reusable.
-function ExpenseItem(props) {
+const ExpenseItem = (props) => {
    // 3. setting fake dynamic data to show using JSX
    // 4. sending this data into app.js file
    // const expenseDate = new Date(2021, 2, 28);
@@ -45,7 +45,7 @@ function ExpenseItem(props) {
          </div>
       </Card>
    );
-}
+};
 
 // 5. exporting the component & importing in app.js
 export default ExpenseItem;
