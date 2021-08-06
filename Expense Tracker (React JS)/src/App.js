@@ -1,7 +1,7 @@
 // 1. importing ExpenseItem.js component
 // import ExpenseItem from "./components/ExpenseItem";
 // 6. importing Expenses.js
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 
 function App() {
    // 3. creating data for ExpenseItem

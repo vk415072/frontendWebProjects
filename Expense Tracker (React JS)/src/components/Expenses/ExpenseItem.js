@@ -3,7 +3,7 @@ import "./ExpenseItem.css";
 // 12. importing ExpenseDate.js
 import ExpenseDate from "./ExpenseDate";
 // 15. importing Card.css
-import Card from "./Card";
+import Card from "../UI/Card";
 
 // 1. created our first component (it's just a function which returns a HTML)
 // 2. It is not really HTML, it is JSX which is dev by React team

@@ -3,7 +3,7 @@ import ExpenseItem from "./ExpenseItem";
 // 3. importing its css
 import "./Expenses.css";
 // 4. importing Card.js (the wrapping components for all components)
-import Card from "./Card";
+import Card from "../UI/Card";
 
 function Expenses(props) {
    return (
