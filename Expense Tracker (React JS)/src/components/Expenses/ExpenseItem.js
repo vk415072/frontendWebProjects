@@ -21,6 +21,11 @@ const ExpenseItem = (props) => {
    //    const day = props.date.toLocaleString("en-US", { day: "2-digit" });
    //    const year = props.date.getFullYear();
 
+   // 19. creating a function for test button
+   const tempFunction = () => {
+      console.log("Clicked");
+   };
+
    // 4. adding these const in the JXS tags and returning
    return (
       // 7. now accessing data with properties from app.js
@@ -43,6 +48,10 @@ const ExpenseItem = (props) => {
             <h2>{props.title}</h2>
             <div className="expense-item__price">Rs.{props.amount}</div>
          </div>
+         {/* 18. adding a temp button for testing an event listener in React */}
+         {/* 20. adding a the function within onClick */}
+         {/* 21. note: don't execute the function, just point at it. or, don't add parentheses after the function name */}
+         <button onClick={tempFunction}>Change Title</button>
       </Card>
    );
 };
